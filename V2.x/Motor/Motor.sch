@@ -27137,7 +27137,7 @@ Solder type</description>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340?-*" device="MP" package3d_urn="urn:adsk.eagle:package:28541/2" technology="05"/>
 <part name="SS" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="RST" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="RS" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0102W" package3d_urn="urn:adsk.eagle:package:23588/2" value="47K"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0102W" package3d_urn="urn:adsk.eagle:package:23588/2" value="10k"/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="5,1V"/>
@@ -27160,7 +27160,7 @@ Solder type</description>
 <text x="154.94" y="-45.72" size="1.778" layer="97" grouprefs="CONTROLER-PORT">FORW-REL</text>
 <text x="154.94" y="-48.26" size="1.778" layer="97" grouprefs="CONTROLER-PORT">REVERS-REL</text>
 <text x="233.68" y="-40.64" size="1.778" layer="97" grouprefs="CONTROLER-PORT">HORN</text>
-<text x="-25.4" y="111.76" size="5.08" layer="95">Motor V2.2-s</text>
+<text x="-25.4" y="111.76" size="5.08" layer="95">Motor V2.2</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="132.08" y="25.4" smashed="yes" rot="MR0" grouprefs="CAN-CONTROLER"/>
@@ -27283,8 +27283,8 @@ Solder type</description>
 <attribute name="NAME" x="115.57" y="75.438" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="R15" gate="G$1" x="66.04" y="-58.42" smashed="yes" rot="R180" grouprefs="POWER">
-<attribute name="NAME" x="69.85" y="-59.9186" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="65.405" y="-60.198" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="67.31" y="-54.8386" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="67.945" y="-60.198" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+5V" gate="G$1" x="58.42" y="-45.72" smashed="yes" grouprefs="POWER">
 <attribute name="NAME" x="61.976" y="-50.292" size="1.778" layer="95" rot="R90"/>
@@ -27351,8 +27351,8 @@ Solder type</description>
 <attribute name="VALUE" x="48.768" y="1.905" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="40.64" y="7.62" smashed="yes" rot="R180" grouprefs="MCU">
-<attribute name="NAME" x="44.45" y="6.1214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="40.005" y="5.842" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="41.91" y="11.2014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="42.545" y="5.842" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC3" gate="A" x="20.32" y="-40.64" smashed="yes">
 <attribute name="NAME" x="12.7" y="-34.925" size="1.778" layer="95"/>
@@ -27364,7 +27364,7 @@ Solder type</description>
 <instance part="P+5" gate="VCC" x="78.74" y="35.56" smashed="yes">
 <attribute name="VALUE" x="76.2" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="RST" gate="G$1" x="152.4" y="81.28" smashed="yes" rot="R90" grouprefs="ICP">
+<instance part="RS" gate="G$1" x="152.4" y="81.28" smashed="yes" rot="R90" grouprefs="ICP">
 <attribute name="NAME" x="158.75" y="80.264" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="154.94" y="82.55" size="1.778" layer="97" rot="R90"/>
 </instance>
@@ -27858,7 +27858,7 @@ Solder type</description>
 </segment>
 <segment>
 <wire x1="132.08" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91" grouprefs="ICP"/>
-<pinref part="RST" gate="G$1" pin="TP"/>
+<pinref part="RS" gate="G$1" pin="TP"/>
 <label x="134.62" y="81.28" size="1.778" layer="95" grouprefs="ICP"/>
 </segment>
 </net>

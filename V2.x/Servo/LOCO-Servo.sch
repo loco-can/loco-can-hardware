@@ -23499,7 +23499,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0102W" package3d_urn="urn:adsk.eagle:package:23588/2" value="10k"/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="5.1V"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SPEED" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="1445055-2" device="" package3d_urn="urn:adsk.eagle:package:8081710/1"/>
+<part name="PLS" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="1445055-2" device="" package3d_urn="urn:adsk.eagle:package:8081710/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0102W" package3d_urn="urn:adsk.eagle:package:23588/2" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -23510,12 +23510,12 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <part name="SC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SI" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="SDI" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="CS" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="CAN" library="Opto-Electronic" deviceset="LED_CHIP" device="BLUE-1608" package3d_urn="urn:adsk.eagle:package:16655962/3" technology="_" value="STATUS"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0102W" package3d_urn="urn:adsk.eagle:package:23588/2" value="220R"/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340?-*" device="MP" package3d_urn="urn:adsk.eagle:package:28541/2" technology="05"/>
 <part name="X2" library="con-amp-micro-mate-n-lock" deviceset="2X6" device="-A"/>
-<part name="SO1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="RS" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -23725,7 +23725,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <instance part="GND12" gate="1" x="200.66" y="-127" smashed="yes" grouprefs="VOLTAGE-SENSOR">
 <attribute name="VALUE" x="198.12" y="-129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="SPEED" gate="G$1" x="2.54" y="-91.44" smashed="yes" rot="MR180" grouprefs="SPEEDO">
+<instance part="PLS" gate="G$1" x="2.54" y="-91.44" smashed="yes" rot="MR180" grouprefs="SPEEDO">
 <attribute name="NAME" x="0" y="-87.63" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="0" y="-96.52" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -23763,7 +23763,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <attribute name="NAME" x="156.21" y="85.344" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="152.4" y="87.63" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="SDI" gate="1" x="71.12" y="22.86" smashed="yes" grouprefs="MCU">
+<instance part="CS" gate="1" x="71.12" y="22.86" smashed="yes" grouprefs="MCU">
 <attribute name="NAME" x="73.66" y="25.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.58" y="19.05" size="1.778" layer="96"/>
 </instance>
@@ -23826,7 +23826,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <attribute name="NAME" x="160.528" y="-59.436" size="1.778" layer="95"/>
 <attribute name="VALUE" x="159.766" y="-56.007" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SO1" gate="G$1" x="149.86" y="81.28" smashed="yes" rot="R90" grouprefs="SPI">
+<instance part="RS" gate="G$1" x="149.86" y="81.28" smashed="yes" rot="R90" grouprefs="SPI">
 <attribute name="NAME" x="156.21" y="80.264" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="152.4" y="82.55" size="1.778" layer="97" rot="R90"/>
 </instance>
@@ -23988,7 +23988,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SPEED" gate="G$1" pin="2"/>
+<pinref part="PLS" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="0" y1="-93.98" x2="-7.62" y2="-93.98" width="0.1524" layer="91" grouprefs="SPEEDO"/>
 <wire x1="-7.62" y1="-93.98" x2="-7.62" y2="-99.06" width="0.1524" layer="91" grouprefs="SPEEDO"/>
@@ -24190,7 +24190,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <wire x1="55.88" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="IC1" gate="G$1" pin="PB2(SS/OC1B)"/>
 <label x="60.96" y="22.86" size="1.778" layer="95" grouprefs="MCU"/>
-<pinref part="SDI" gate="1" pin="1"/>
+<pinref part="CS" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="CAN-OCC1" class="0">
@@ -24369,7 +24369,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 <label x="5.08" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SO1" gate="G$1" pin="TP"/>
+<pinref part="RS" gate="G$1" pin="TP"/>
 <wire x1="147.32" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91" grouprefs="SPI"/>
 <label x="129.54" y="81.28" size="1.778" layer="95" grouprefs="SPI"/>
 </segment>
@@ -24549,7 +24549,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 </net>
 <net name="CAN-CS" class="0">
 <segment>
-<pinref part="SDI" gate="1" pin="2"/>
+<pinref part="CS" gate="1" pin="2"/>
 <wire x1="76.2" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91" grouprefs="MCU"/>
 <label x="81.28" y="22.86" size="1.778" layer="95" rot="R90" grouprefs="MCU"/>
 </segment>
@@ -24568,7 +24568,7 @@ Sources: Datasheet of the Mate-N-Lock Series form AMP
 </net>
 <net name="PULSE" class="0">
 <segment>
-<pinref part="SPEED" gate="G$1" pin="1"/>
+<pinref part="PLS" gate="G$1" pin="1"/>
 <wire x1="0" y1="-91.44" x2="-12.7" y2="-91.44" width="0.1524" layer="91" grouprefs="SPEEDO"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="-91.44" x2="-22.86" y2="-91.44" width="0.1524" layer="91" grouprefs="SPEEDO"/>
