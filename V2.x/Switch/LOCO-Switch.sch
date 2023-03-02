@@ -23552,7 +23552,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="99.06" y="99.06" size="2.54" layer="91" grouprefs="PROGRAM-INTERFACE">Program</text>
 <text x="114.3" y="45.72" size="2.54" layer="91" grouprefs="CAN-INTERFACE">CAN-Interface</text>
 <text x="22.86" y="93.98" size="2.54" layer="91" grouprefs="MCU">Controler</text>
-<text x="-25.4" y="114.3" size="5.08" layer="95">LOCO-Switch V2.2</text>
+<text x="-25.4" y="114.3" size="5.08" layer="95">Loco-Switch V2.2</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="134.62" y="22.86" smashed="yes" rot="MR0" grouprefs="CAN-INTERFACE"/>
