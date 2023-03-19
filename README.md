@@ -254,6 +254,19 @@ The values for each servo motor position can be mapped to each analog value of C
 ### V2.0/V2.2
 The versions only differ in the pinout of the FDTI-interface.
 
+### 12-pin Servo Output
+Plug: MATE-N-LOK 1-794617-2
+Jack: MATE-N-LOK 4-794618-2
+
+| Row 1     | Row 2      |
+|:----------|:-----------|
+| 1 Servo-1 | 7 Servo-3  |
+| 2 +5V     | 8 +5V      |
+| 3 GND     | 9 GND      |
+| 4 Servo-2 | 10 Servo-4 |
+| 5 +5V     | 11 +5V     |
+| 6 GND     | 12 GND     |
+
 ### FTDI Interface
 | V2.0     | V2.2  |
 |:---------|:----------|
