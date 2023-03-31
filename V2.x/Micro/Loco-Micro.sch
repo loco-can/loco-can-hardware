@@ -19243,952 +19243,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="IC_Embedded">
-<description>&lt;B&gt;Microcontrollers, Microprocessors, DSP, FPGA, PLD, SoC</description>
-<packages>
-<package name="DIP787W55P254L958H533Q8B-8P3" urn="urn:adsk.eagle:footprint:28349015/1">
-<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span, 9.59 X 6.61 X 5.33 mm body
- &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span with body size 9.59 X 6.61 X 5.33 mm&lt;/p&gt;</description>
-<pad name="1" x="-3.81" y="3.81" drill="0.8519" diameter="1.4519"/>
-<pad name="2" x="-3.81" y="1.27" drill="0.8519" diameter="1.4519"/>
-<pad name="3" x="-3.81" y="-1.27" drill="0.8519" diameter="1.4519"/>
-<pad name="4" x="-3.81" y="-3.81" drill="0.8519" diameter="1.4519"/>
-<pad name="5" x="3.81" y="-3.81" drill="0.8519" diameter="1.4519"/>
-<pad name="6" x="3.81" y="-1.27" drill="0.8519" diameter="1.4519"/>
-<pad name="7" x="3.81" y="1.27" drill="0.8519" diameter="1.4519"/>
-<pad name="8" x="3.81" y="3.81" drill="0.8519" diameter="1.4519"/>
-<circle x="-5.165" y="3.81" radius="0.25" width="0" layer="21"/>
-<wire x1="-3.555" y1="4.79" x2="-3.555" y2="5.08" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="5.08" x2="3.555" y2="5.08" width="0.12" layer="21"/>
-<wire x1="3.555" y1="5.08" x2="3.555" y2="4.79" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-4.79" x2="-3.555" y2="-5.08" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-5.08" x2="3.555" y2="-5.08" width="0.12" layer="21"/>
-<wire x1="3.555" y1="-5.08" x2="3.555" y2="-4.79" width="0.12" layer="21"/>
-<wire x1="-3.555" y1="-5.08" x2="-3.555" y2="5.08" width="0.12" layer="51"/>
-<wire x1="-3.555" y1="5.08" x2="3.555" y2="5.08" width="0.12" layer="51"/>
-<wire x1="3.555" y1="5.08" x2="3.555" y2="-5.08" width="0.12" layer="51"/>
-<wire x1="3.555" y1="-5.08" x2="-3.555" y2="-5.08" width="0.12" layer="51"/>
-<text x="0" y="5.715" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.715" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOIC127P798X216-8N-8S2" urn="urn:adsk.eagle:footprint:28349016/1">
-<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
- &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
-<smd name="1" x="-3.65" y="1.905" dx="1.7" dy="0.65" layer="1"/>
-<smd name="2" x="-3.65" y="0.635" dx="1.7" dy="0.65" layer="1"/>
-<smd name="3" x="-3.65" y="-0.635" dx="1.7" dy="0.65" layer="1"/>
-<smd name="4" x="-3.65" y="-1.905" dx="1.7" dy="0.65" layer="1"/>
-<smd name="5" x="3.65" y="-1.905" dx="1.7" dy="0.65" layer="1"/>
-<smd name="6" x="3.65" y="-0.635" dx="1.7" dy="0.65" layer="1"/>
-<smd name="7" x="3.65" y="0.635" dx="1.7" dy="0.65" layer="1"/>
-<smd name="8" x="3.65" y="1.905" dx="1.7" dy="0.65" layer="1"/>
-<circle x="-3.593" y="2.7013" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.7" y1="2.4513" x2="-2.7" y2="2.675" width="0.12" layer="21"/>
-<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="21"/>
-<wire x1="2.7" y1="2.675" x2="2.7" y2="2.4513" width="0.12" layer="21"/>
-<wire x1="-2.7" y1="-2.4513" x2="-2.7" y2="-2.675" width="0.12" layer="21"/>
-<wire x1="-2.7" y1="-2.675" x2="2.7" y2="-2.675" width="0.12" layer="21"/>
-<wire x1="2.7" y1="-2.675" x2="2.7" y2="-2.4513" width="0.12" layer="21"/>
-<wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
-<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="51"/>
-<wire x1="2.7" y1="2.675" x2="2.7" y2="-2.675" width="0.12" layer="51"/>
-<wire x1="2.7" y1="-2.675" x2="-2.7" y2="-2.675" width="0.12" layer="51"/>
-<text x="0" y="3.5863" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.31" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:28349017/1">
-<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.89 X 3.90 X 1.75 mm body
- &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.89 X 3.90 X 1.75 mm&lt;/p&gt;</description>
-<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
-<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
-<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
-<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
-<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
-<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
-<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
-<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
-<circle x="-2.7266" y="2.7098" radius="0.25" width="0" layer="21"/>
-<wire x1="-1.995" y1="2.5198" x2="1.995" y2="2.5198" width="0.12" layer="21"/>
-<wire x1="-1.995" y1="-2.5198" x2="1.995" y2="-2.5198" width="0.12" layer="21"/>
-<wire x1="-1.995" y1="-2.49" x2="-1.995" y2="2.49" width="0.12" layer="51"/>
-<wire x1="-1.995" y1="2.49" x2="1.995" y2="2.49" width="0.12" layer="51"/>
-<wire x1="1.995" y1="2.49" x2="1.995" y2="-2.49" width="0.12" layer="51"/>
-<wire x1="1.995" y1="-2.49" x2="-1.995" y2="-2.49" width="0.12" layer="51"/>
-<text x="0" y="3.5948" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.1548" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOP65P640X120-8N" urn="urn:adsk.eagle:footprint:28349018/1">
-<description>8-SOP, 0.65 mm pitch, 6.40 mm span, 3.00 X 4.40 X 1.20 mm body
- &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 3.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
-<smd name="1" x="-2.95" y="0.975" dx="1.45" dy="0.45" layer="1"/>
-<smd name="2" x="-2.95" y="0.325" dx="1.45" dy="0.45" layer="1"/>
-<smd name="3" x="-2.95" y="-0.325" dx="1.45" dy="0.45" layer="1"/>
-<smd name="4" x="-2.95" y="-0.975" dx="1.45" dy="0.45" layer="1"/>
-<smd name="5" x="2.95" y="-0.975" dx="1.45" dy="0.45" layer="1"/>
-<smd name="6" x="2.95" y="-0.325" dx="1.45" dy="0.45" layer="1"/>
-<smd name="7" x="2.95" y="0.325" dx="1.45" dy="0.45" layer="1"/>
-<smd name="8" x="2.95" y="0.975" dx="1.45" dy="0.45" layer="1"/>
-<circle x="-2.9542" y="1.6974" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.25" y1="1.4474" x2="-2.25" y2="1.55" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="1.55" x2="2.25" y2="1.55" width="0.12" layer="21"/>
-<wire x1="2.25" y1="1.55" x2="2.25" y2="1.4474" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="-1.4474" x2="-2.25" y2="-1.55" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="-1.55" x2="2.25" y2="-1.55" width="0.12" layer="21"/>
-<wire x1="2.25" y1="-1.55" x2="2.25" y2="-1.4474" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="-1.55" x2="-2.25" y2="1.55" width="0.12" layer="51"/>
-<wire x1="-2.25" y1="1.55" x2="2.25" y2="1.55" width="0.12" layer="51"/>
-<wire x1="2.25" y1="1.55" x2="2.25" y2="-1.55" width="0.12" layer="51"/>
-<wire x1="2.25" y1="-1.55" x2="-2.25" y2="-1.55" width="0.12" layer="51"/>
-<text x="0" y="2.5824" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="DIP762W55P254L958H533Q8B-8P3" urn="urn:adsk.eagle:package:28349043/1" type="model">
-<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span, 9.59 X 6.61 X 5.33 mm body
- &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span with body size 9.59 X 6.61 X 5.33 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIP787W55P254L958H533Q8B-8P3"/>
-</packageinstances>
-</package3d>
-<package3d name="SOIC127P798X216-8N-8S2" urn="urn:adsk.eagle:package:28349041/1" type="model">
-<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
- &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC127P798X216-8N-8S2"/>
-</packageinstances>
-</package3d>
-<package3d name="SOIC127P599X175-8N-S8S1" urn="urn:adsk.eagle:package:28349039/1" type="model">
-<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.89 X 3.90 X 1.75 mm body
- &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.89 X 3.90 X 1.75 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC127P600X175-8N"/>
-</packageinstances>
-</package3d>
-<package3d name="SOP65P640X120-8N-8X" urn="urn:adsk.eagle:package:28349038/1" type="model">
-<description>8-SOP, 0.65 mm pitch, 6.40 mm span, 3.00 X 4.40 X 1.20 mm body
- &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 3.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOP65P640X120-8N"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="ATTINY25/45/85/V_PDIP/SOIC/TSSOP" urn="urn:adsk.eagle:symbol:28349007/1">
-<pin name="PB5(PCINT5/!RESET!/ADC0/DW)" x="-48.26" y="2.54" length="short"/>
-<pin name="PB3(PCINT3/XTAL1/CLKI/!OC1B!/ADC3)" x="55.88" y="7.62" length="short" rot="R180"/>
-<pin name="PB4(PCINT4/XTAL2/CLKO/OC1B/ADC2)" x="-48.26" y="-2.54" length="short"/>
-<pin name="GND" x="-48.26" y="-7.62" length="short" direction="pwr"/>
-<pin name="VCC" x="-48.26" y="7.62" length="short" direction="pwr"/>
-<pin name="PB2(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)" x="55.88" y="2.54" length="short" rot="R180"/>
-<pin name="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" x="55.88" y="-2.54" length="short" rot="R180"/>
-<pin name="PB0(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0)" x="55.88" y="-7.62" length="short" rot="R180"/>
-<wire x1="-45.72" y1="10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-45.72" y1="-10.16" x2="53.34" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="53.34" y1="-10.16" x2="53.34" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="53.34" y1="10.16" x2="-45.72" y2="10.16" width="0.1524" layer="94"/>
-<text x="0" y="12.7" size="2.54" layer="95" ratio="10" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="-12.7" size="2.54" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ATTINY*-8PIN" urn="urn:adsk.eagle:component:28349072/1" prefix="IC" uservalue="yes">
-<description>Atmel tiny25/45/85, 8-bit AVR Microcontroller with 2/4/8K
-
-Bytes In-System Programmable Flash
-&lt;br&gt;&lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ATTINY25/45/85/V_PDIP/SOIC/TSSOP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_PDIP" package="DIP787W55P254L958H533Q8B-8P3">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="PB0(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0)" pad="5"/>
-<connect gate="G$1" pin="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" pad="6"/>
-<connect gate="G$1" pin="PB2(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)" pad="7"/>
-<connect gate="G$1" pin="PB3(PCINT3/XTAL1/CLKI/!OC1B!/ADC3)" pad="2"/>
-<connect gate="G$1" pin="PB4(PCINT4/XTAL2/CLKO/OC1B/ADC2)" pad="3"/>
-<connect gate="G$1" pin="PB5(PCINT5/!RESET!/ADC0/DW)" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28349043/1"/>
-</package3dinstances>
-<technologies>
-<technology name="25-20PU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-PDIP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20PU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20PU" constant="no"/>
-</technology>
-<technology name="25V-10PU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-PDIP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value=" ATtiny25V-10PU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
-<attribute name="VALUE" value=" ATtiny25V-10PU" constant="no"/>
-</technology>
-<technology name="45-20PU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-PDIP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20PU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20PU" constant="no"/>
-</technology>
-<technology name="45V-10PU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-PDIP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45V-10PU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45V-10PU" constant="no"/>
-</technology>
-<technology name="85-20PU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-PDIP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85-20PU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85-20PU" constant="no"/>
-</technology>
-<technology name="85V-10PU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-PDIP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85V-10PU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85V-10PU" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_EIAJ" package="SOIC127P798X216-8N-8S2">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="PB0(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0)" pad="5"/>
-<connect gate="G$1" pin="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" pad="6"/>
-<connect gate="G$1" pin="PB2(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)" pad="7"/>
-<connect gate="G$1" pin="PB3(PCINT3/XTAL1/CLKI/!OC1B!/ADC3)" pad="2"/>
-<connect gate="G$1" pin="PB4(PCINT4/XTAL2/CLKO/OC1B/ADC2)" pad="3"/>
-<connect gate="G$1" pin="PB5(PCINT5/!RESET!/ADC0/DW)" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28349041/1"/>
-</package3dinstances>
-<technologies>
-<technology name="25-20SH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SH" constant="no"/>
-</technology>
-<technology name="25-20SHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SHR" constant="no"/>
-</technology>
-<technology name="25-20SN">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SN" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SN" constant="no"/>
-</technology>
-<technology name="25-20SNR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SNR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SNR" constant="no"/>
-</technology>
-<technology name="25-20SU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SU" constant="no"/>
-</technology>
-<technology name="25-20SUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SUR" constant="no"/>
-</technology>
-<technology name="25V-10SH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-10SH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-10SH" constant="no"/>
-</technology>
-<technology name="25V-10SHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-10SHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-10SHR" constant="no"/>
-</technology>
-<technology name="25V-10SU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SU" constant="no"/>
-</technology>
-<technology name="25V-10SUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-10SUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-10SUR" constant="no"/>
-</technology>
-<technology name="45-20SH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20SH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20SH" constant="no"/>
-</technology>
-<technology name="45-20SHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20SHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20SHR" constant="no"/>
-</technology>
-<technology name="45-20SU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20SU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20SU" constant="no"/>
-</technology>
-<technology name="45-20SUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20SUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20SUR" constant="no"/>
-</technology>
-<technology name="45V-10SH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-10SH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-10SH" constant="no"/>
-</technology>
-<technology name="45V-10SHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-10SHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-10SHR" constant="no"/>
-</technology>
-<technology name="45V-10SU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="8-bit Microcontrollers - MCU 4kB Flash 0.256kB EEPROM 6 I/O Pins" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-10SU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-10SU" constant="no"/>
-</technology>
-<technology name="45V-10SUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-10SUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-10SUR" constant="no"/>
-</technology>
-<technology name="85-20SH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85-20SH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85-20SH" constant="no"/>
-</technology>
-<technology name="85-20SHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85-20SHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85-20SHR" constant="no"/>
-</technology>
-<technology name="85-20SU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85-20SU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85-20SU" constant="no"/>
-</technology>
-<technology name="85-20SUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85-20SUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85-20SUR" constant="no"/>
-</technology>
-<technology name="85V-10SH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85V-10SH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85V-10SH" constant="no"/>
-</technology>
-<technology name="85V-10SHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85V-10SHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85V-10SHR" constant="no"/>
-</technology>
-<technology name="85V-10SU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85V-10SU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85V-10SU" constant="no"/>
-</technology>
-<technology name="85V-10SUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny85V-10SUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny85" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny85V-10SUR" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SOIC" package="SOIC127P600X175-8N">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="PB0(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0)" pad="5"/>
-<connect gate="G$1" pin="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" pad="6"/>
-<connect gate="G$1" pin="PB2(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)" pad="7"/>
-<connect gate="G$1" pin="PB3(PCINT3/XTAL1/CLKI/!OC1B!/ADC3)" pad="2"/>
-<connect gate="G$1" pin="PB4(PCINT4/XTAL2/CLKO/OC1B/ADC2)" pad="3"/>
-<connect gate="G$1" pin="PB5(PCINT5/!RESET!/ADC0/DW)" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28349039/1"/>
-</package3dinstances>
-<technologies>
-<technology name="25-20SSH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SSH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SSH" constant="no"/>
-</technology>
-<technology name="25-20SSHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SSHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SSHR" constant="no"/>
-</technology>
-<technology name="25-20SSN">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SSN" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SSN" constant="no"/>
-</technology>
-<technology name="25-20SSNR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25-20SSNR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25-20SSNR" constant="no"/>
-</technology>
-<technology name="25-20SSU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-20SSU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-20SSU" constant="no"/>
-</technology>
-<technology name="25-20SSUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-20SSUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-20SSUR" constant="no"/>
-</technology>
-<technology name="25V-10SSH">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-10SSH" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-10SSH" constant="no"/>
-</technology>
-<technology name="25V-10SSHR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-10SSHR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-10SSHR" constant="no"/>
-</technology>
-<technology name="25V-10SSN">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-10SSN" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-10SSN" constant="no"/>
-</technology>
-<technology name="25V-10SSNR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-10SSNR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-10SSNR" constant="no"/>
-</technology>
-<technology name="25V-10SSU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-10SSU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-10SSU" constant="no"/>
-</technology>
-<technology name="25V-10SSUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny25V-10SSUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="PART_STATUS" value="Active" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny25" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny25V-10SSUR" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TSSOP" package="SOP65P640X120-8N">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="PB0(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0)" pad="5"/>
-<connect gate="G$1" pin="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" pad="6"/>
-<connect gate="G$1" pin="PB2(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)" pad="7"/>
-<connect gate="G$1" pin="PB3(PCINT3/XTAL1/CLKI/!OC1B!/ADC3)" pad="2"/>
-<connect gate="G$1" pin="PB4(PCINT4/XTAL2/CLKO/OC1B/ADC2)" pad="3"/>
-<connect gate="G$1" pin="PB5(PCINT5/!RESET!/ADC0/DW)" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28349038/1"/>
-</package3dinstances>
-<technologies>
-<technology name="45-20XU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20XU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20XU" constant="no"/>
-</technology>
-<technology name="45-20XUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-20XUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="20 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-20XUR" constant="no"/>
-</technology>
-<technology name="45V-10XU">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="8 Bit MCU, AVR Family ATtiny45 Series Microcontrollers, 10 MHz, 4 KB, 256 Byte, 8 Pins, TSSOP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-10XU" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-10XU" constant="no"/>
-</technology>
-<technology name="45V-10XUR">
-<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
-<attribute name="CORE" value="AVR" constant="no"/>
-<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATtiny45-10XUR" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
-<attribute name="SERIES" value="ATtiny45" constant="no"/>
-<attribute name="SPEED" value="10 MHz" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
-<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
-<attribute name="VALUE" value="ATtiny45-10XUR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Crystals" urn="urn:adsk.eagle:library:39856454">
 <description>&lt;BR&gt;&lt;big&gt;&lt;b&gt;GEYER ELECTRONIC --- Your producer for quartz crystals and oscillators&lt;/B&gt;&lt;/big&gt;&lt;br&gt;&lt;Hr&gt;
 
@@ -21254,6 +20308,952 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="ATtiny" urn="urn:adsk.eagle:library:39900060">
+<description>&lt;B&gt;Microcontrollers, Microprocessors, DSP, FPGA, PLD, SoC</description>
+<packages>
+<package name="DIP787W55P254L958H533Q8B-8P3" urn="urn:adsk.eagle:footprint:28349015/1" library_version="2">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span, 9.59 X 6.61 X 5.33 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span with body size 9.59 X 6.61 X 5.33 mm&lt;/p&gt;</description>
+<pad name="1" x="-3.81" y="3.81" drill="0.8519" diameter="1.4519"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.8519" diameter="1.4519"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.8519" diameter="1.4519"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.8519" diameter="1.4519"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.8519" diameter="1.4519"/>
+<pad name="6" x="3.81" y="-1.27" drill="0.8519" diameter="1.4519"/>
+<pad name="7" x="3.81" y="1.27" drill="0.8519" diameter="1.4519"/>
+<pad name="8" x="3.81" y="3.81" drill="0.8519" diameter="1.4519"/>
+<circle x="-5.165" y="3.81" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.555" y1="4.79" x2="-3.555" y2="5.08" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="5.08" x2="3.555" y2="5.08" width="0.12" layer="21"/>
+<wire x1="3.555" y1="5.08" x2="3.555" y2="4.79" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-4.79" x2="-3.555" y2="-5.08" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-5.08" x2="3.555" y2="-5.08" width="0.12" layer="21"/>
+<wire x1="3.555" y1="-5.08" x2="3.555" y2="-4.79" width="0.12" layer="21"/>
+<wire x1="-3.555" y1="-5.08" x2="-3.555" y2="5.08" width="0.12" layer="51"/>
+<wire x1="-3.555" y1="5.08" x2="3.555" y2="5.08" width="0.12" layer="51"/>
+<wire x1="3.555" y1="5.08" x2="3.555" y2="-5.08" width="0.12" layer="51"/>
+<wire x1="3.555" y1="-5.08" x2="-3.555" y2="-5.08" width="0.12" layer="51"/>
+<text x="0" y="5.715" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.715" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P798X216-8N-8S2" urn="urn:adsk.eagle:footprint:28349016/1" library_version="2">
+<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
+<smd name="1" x="-3.65" y="1.905" dx="1.7" dy="0.65" layer="1"/>
+<smd name="2" x="-3.65" y="0.635" dx="1.7" dy="0.65" layer="1"/>
+<smd name="3" x="-3.65" y="-0.635" dx="1.7" dy="0.65" layer="1"/>
+<smd name="4" x="-3.65" y="-1.905" dx="1.7" dy="0.65" layer="1"/>
+<smd name="5" x="3.65" y="-1.905" dx="1.7" dy="0.65" layer="1"/>
+<smd name="6" x="3.65" y="-0.635" dx="1.7" dy="0.65" layer="1"/>
+<smd name="7" x="3.65" y="0.635" dx="1.7" dy="0.65" layer="1"/>
+<smd name="8" x="3.65" y="1.905" dx="1.7" dy="0.65" layer="1"/>
+<circle x="-3.593" y="2.7013" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.7" y1="2.4513" x2="-2.7" y2="2.675" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="21"/>
+<wire x1="2.7" y1="2.675" x2="2.7" y2="2.4513" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.4513" x2="-2.7" y2="-2.675" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.675" x2="2.7" y2="-2.675" width="0.12" layer="21"/>
+<wire x1="2.7" y1="-2.675" x2="2.7" y2="-2.4513" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="2.7" y1="2.675" x2="2.7" y2="-2.675" width="0.12" layer="51"/>
+<wire x1="2.7" y1="-2.675" x2="-2.7" y2="-2.675" width="0.12" layer="51"/>
+<text x="0" y="3.5863" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.31" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:28349017/1" library_version="2">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.89 X 3.90 X 1.75 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.89 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<circle x="-2.7266" y="2.7098" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.995" y1="2.5198" x2="1.995" y2="2.5198" width="0.12" layer="21"/>
+<wire x1="-1.995" y1="-2.5198" x2="1.995" y2="-2.5198" width="0.12" layer="21"/>
+<wire x1="-1.995" y1="-2.49" x2="-1.995" y2="2.49" width="0.12" layer="51"/>
+<wire x1="-1.995" y1="2.49" x2="1.995" y2="2.49" width="0.12" layer="51"/>
+<wire x1="1.995" y1="2.49" x2="1.995" y2="-2.49" width="0.12" layer="51"/>
+<wire x1="1.995" y1="-2.49" x2="-1.995" y2="-2.49" width="0.12" layer="51"/>
+<text x="0" y="3.5948" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1548" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P640X120-8N" urn="urn:adsk.eagle:footprint:28349018/1" library_version="2">
+<description>8-SOP, 0.65 mm pitch, 6.40 mm span, 3.00 X 4.40 X 1.20 mm body
+ &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 3.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<smd name="1" x="-2.95" y="0.975" dx="1.45" dy="0.45" layer="1"/>
+<smd name="2" x="-2.95" y="0.325" dx="1.45" dy="0.45" layer="1"/>
+<smd name="3" x="-2.95" y="-0.325" dx="1.45" dy="0.45" layer="1"/>
+<smd name="4" x="-2.95" y="-0.975" dx="1.45" dy="0.45" layer="1"/>
+<smd name="5" x="2.95" y="-0.975" dx="1.45" dy="0.45" layer="1"/>
+<smd name="6" x="2.95" y="-0.325" dx="1.45" dy="0.45" layer="1"/>
+<smd name="7" x="2.95" y="0.325" dx="1.45" dy="0.45" layer="1"/>
+<smd name="8" x="2.95" y="0.975" dx="1.45" dy="0.45" layer="1"/>
+<circle x="-2.9542" y="1.6974" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="1.4474" x2="-2.25" y2="1.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="1.55" x2="2.25" y2="1.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="1.55" x2="2.25" y2="1.4474" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-1.4474" x2="-2.25" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-1.55" x2="2.25" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-1.55" x2="2.25" y2="-1.4474" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-1.55" x2="-2.25" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="1.55" x2="2.25" y2="1.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="1.55" x2="2.25" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="-1.55" x2="-2.25" y2="-1.55" width="0.12" layer="51"/>
+<text x="0" y="2.5824" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIP762W55P254L958H533Q8B-8P3" urn="urn:adsk.eagle:package:28349043/1" wip_urn="urn:adsk.wipprod:fs.file:vf.Hb9e-EtGTkKJkQMxpgefxg?version=3" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span, 9.59 X 6.61 X 5.33 mm body
+ &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.87 mm (0.31 in) span with body size 9.59 X 6.61 X 5.33 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP787W55P254L958H533Q8B-8P3"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P798X216-8N-8S2" urn="urn:adsk.eagle:package:28349041/1" wip_urn="urn:adsk.wipprod:fs.file:vf.AuRUKhOZSeit7Ze0NHRZOw?version=1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P798X216-8N-8S2"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P599X175-8N-S8S1" urn="urn:adsk.eagle:package:28349039/1" wip_urn="urn:adsk.wipprod:fs.file:vf.bhBjmqRuS7ai5J9CiApWlA?version=2" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.89 X 3.90 X 1.75 mm body
+ &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.89 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-8N-8X" urn="urn:adsk.eagle:package:28349038/1" wip_urn="urn:adsk.wipprod:fs.file:vf.xhs8S13KQ3ySE9ZgHWldtQ?version=3" type="model">
+<description>8-SOP, 0.65 mm pitch, 6.40 mm span, 3.00 X 4.40 X 1.20 mm body
+ &lt;p&gt;8-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 3.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-8N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="ATTINY25/45/85/V_PDIP/SOIC/TSSOP" urn="urn:adsk.eagle:symbol:39900142/1" library_version="2">
+<pin name="D5/A0/RST" x="-17.78" y="7.62" length="short"/>
+<pin name="D3/A3/USB+" x="-17.78" y="2.54" length="short"/>
+<pin name="D4/A2/USB-*" x="-17.78" y="-2.54" length="short"/>
+<pin name="GND" x="-17.78" y="-7.62" length="short" direction="pwr"/>
+<pin name="VCC" x="17.78" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="D2/A1/SCK/SCL" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="D1/SO*" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="D0/SI/SDA*" x="17.78" y="2.54" length="short" rot="R180"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="-15.24" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="12.7" size="2.54" layer="95" ratio="10" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-12.7" size="2.54" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATTINY*-8PIN" urn="urn:adsk.eagle:component:39900143/1" prefix="IC" uservalue="yes" library_version="2">
+<description>Atmel tiny25/45/85, 8-bit AVR Microcontroller with 2/4/8K
+
+Bytes In-System Programmable Flash
+&lt;br&gt;&lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATTINY25/45/85/V_PDIP/SOIC/TSSOP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PDIP" package="DIP787W55P254L958H533Q8B-8P3">
+<connects>
+<connect gate="G$1" pin="D0/SI/SDA*" pad="5"/>
+<connect gate="G$1" pin="D1/SO*" pad="6"/>
+<connect gate="G$1" pin="D2/A1/SCK/SCL" pad="7"/>
+<connect gate="G$1" pin="D3/A3/USB+" pad="2"/>
+<connect gate="G$1" pin="D4/A2/USB-*" pad="3"/>
+<connect gate="G$1" pin="D5/A0/RST" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.Hb9e-EtGTkKJkQMxpgefxg?version=3"/>
+</package3dinstances>
+<technologies>
+<technology name="25-20PU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20PU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20PU" constant="no"/>
+</technology>
+<technology name="25V-10PU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value=" ATtiny25V-10PU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
+<attribute name="VALUE" value=" ATtiny25V-10PU" constant="no"/>
+</technology>
+<technology name="45-20PU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20PU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20PU" constant="no"/>
+</technology>
+<technology name="45V-10PU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45V-10PU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45V-10PU" constant="no"/>
+</technology>
+<technology name="85-20PU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85-20PU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85-20PU" constant="no"/>
+</technology>
+<technology name="85V-10PU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-PDIP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85V-10PU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="AVR Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85V-10PU" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_EIAJ" package="SOIC127P798X216-8N-8S2">
+<connects>
+<connect gate="G$1" pin="D0/SI/SDA*" pad="5"/>
+<connect gate="G$1" pin="D1/SO*" pad="6"/>
+<connect gate="G$1" pin="D2/A1/SCK/SCL" pad="7"/>
+<connect gate="G$1" pin="D3/A3/USB+" pad="2"/>
+<connect gate="G$1" pin="D4/A2/USB-*" pad="3"/>
+<connect gate="G$1" pin="D5/A0/RST" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.AuRUKhOZSeit7Ze0NHRZOw?version=1"/>
+</package3dinstances>
+<technologies>
+<technology name="25-20SH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SH" constant="no"/>
+</technology>
+<technology name="25-20SHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SHR" constant="no"/>
+</technology>
+<technology name="25-20SN">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SN" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SN" constant="no"/>
+</technology>
+<technology name="25-20SNR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SNR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SNR" constant="no"/>
+</technology>
+<technology name="25-20SU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SU" constant="no"/>
+</technology>
+<technology name="25-20SUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SUR" constant="no"/>
+</technology>
+<technology name="25V-10SH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-10SH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-10SH" constant="no"/>
+</technology>
+<technology name="25V-10SHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-10SHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-10SHR" constant="no"/>
+</technology>
+<technology name="25V-10SU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SU" constant="no"/>
+</technology>
+<technology name="25V-10SUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-10SUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-10SUR" constant="no"/>
+</technology>
+<technology name="45-20SH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20SH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20SH" constant="no"/>
+</technology>
+<technology name="45-20SHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20SHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20SHR" constant="no"/>
+</technology>
+<technology name="45-20SU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20SU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20SU" constant="no"/>
+</technology>
+<technology name="45-20SUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20SUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20SUR" constant="no"/>
+</technology>
+<technology name="45V-10SH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-10SH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-10SH" constant="no"/>
+</technology>
+<technology name="45V-10SHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-10SHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-10SHR" constant="no"/>
+</technology>
+<technology name="45V-10SU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="8-bit Microcontrollers - MCU 4kB Flash 0.256kB EEPROM 6 I/O Pins" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-10SU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-10SU" constant="no"/>
+</technology>
+<technology name="45V-10SUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-10SUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-10SUR" constant="no"/>
+</technology>
+<technology name="85-20SH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85-20SH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85-20SH" constant="no"/>
+</technology>
+<technology name="85-20SHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85-20SHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85-20SHR" constant="no"/>
+</technology>
+<technology name="85-20SU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85-20SU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85-20SU" constant="no"/>
+</technology>
+<technology name="85-20SUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85-20SUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85-20SUR" constant="no"/>
+</technology>
+<technology name="85V-10SH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85V-10SH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85V-10SH" constant="no"/>
+</technology>
+<technology name="85V-10SHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85V-10SHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85V-10SHR" constant="no"/>
+</technology>
+<technology name="85V-10SU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85V-10SU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85V-10SU" constant="no"/>
+</technology>
+<technology name="85V-10SUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 8KB (4K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny85V-10SUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny85" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny85V-10SUR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="D0/SI/SDA*" pad="5"/>
+<connect gate="G$1" pin="D1/SO*" pad="6"/>
+<connect gate="G$1" pin="D2/A1/SCK/SCL" pad="7"/>
+<connect gate="G$1" pin="D3/A3/USB+" pad="2"/>
+<connect gate="G$1" pin="D4/A2/USB-*" pad="3"/>
+<connect gate="G$1" pin="D5/A0/RST" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.bhBjmqRuS7ai5J9CiApWlA?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="25-20SSH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SSH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SSH" constant="no"/>
+</technology>
+<technology name="25-20SSHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SSHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SSHR" constant="no"/>
+</technology>
+<technology name="25-20SSN">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SSN" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SSN" constant="no"/>
+</technology>
+<technology name="25-20SSNR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25-20SSNR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25-20SSNR" constant="no"/>
+</technology>
+<technology name="25-20SSU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-20SSU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-20SSU" constant="no"/>
+</technology>
+<technology name="25-20SSUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-20SSUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-20SSUR" constant="no"/>
+</technology>
+<technology name="25V-10SSH">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-10SSH" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-10SSH" constant="no"/>
+</technology>
+<technology name="25V-10SSHR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-10SSHR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-10SSHR" constant="no"/>
+</technology>
+<technology name="25V-10SSN">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-10SSN" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-10SSN" constant="no"/>
+</technology>
+<technology name="25V-10SSNR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-10SSNR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-10SSNR" constant="no"/>
+</technology>
+<technology name="25V-10SSU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-10SSU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-10SSU" constant="no"/>
+</technology>
+<technology name="25V-10SSUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 2KB (1K x 16) FLASH 8-SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny25V-10SSUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny25" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny25V-10SSUR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TSSOP" package="SOP65P640X120-8N">
+<connects>
+<connect gate="G$1" pin="D0/SI/SDA*" pad="5"/>
+<connect gate="G$1" pin="D1/SO*" pad="6"/>
+<connect gate="G$1" pin="D2/A1/SCK/SCL" pad="7"/>
+<connect gate="G$1" pin="D3/A3/USB+" pad="2"/>
+<connect gate="G$1" pin="D4/A2/USB-*" pad="3"/>
+<connect gate="G$1" pin="D5/A0/RST" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.xhs8S13KQ3ySE9ZgHWldtQ?version=3"/>
+</package3dinstances>
+<technologies>
+<technology name="45-20XU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20XU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20XU" constant="no"/>
+</technology>
+<technology name="45-20XUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR series Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-20XUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="20 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-20XUR" constant="no"/>
+</technology>
+<technology name="45V-10XU">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="8 Bit MCU, AVR Family ATtiny45 Series Microcontrollers, 10 MHz, 4 KB, 256 Byte, 8 Pins, TSSOP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-10XU" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-10XU" constant="no"/>
+</technology>
+<technology name="45V-10XUR">
+<attribute name="CATEGORY" value="IC_Embedded" constant="no"/>
+<attribute name="CORE" value="AVR" constant="no"/>
+<attribute name="DESCRIPTION" value="AVR AVR® ATtiny, Functional Safety (FuSa) Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-TSSOP" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATtiny45-10XUR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C to 85°C" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="COMPLIANT" constant="no"/>
+<attribute name="SERIES" value="ATtiny45" constant="no"/>
+<attribute name="SPEED" value="10 MHz" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Microcontroller" constant="no"/>
+<attribute name="TYPE" value="8 Bit Microcontroller" constant="no"/>
+<attribute name="VALUE" value="ATtiny45-10XUR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21294,181 +21294,182 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="+" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="100n"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="100n"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="A/3216-18W" package3d_urn="urn:adsk.eagle:package:23408/2" value="4m7"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="A/3216-18W" package3d_urn="urn:adsk.eagle:package:23408/2" value="4m7"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="4m7"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="4m7"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="22n"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="22n"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC1" library="IC_Embedded" deviceset="ATTINY*-8PIN" device="_SOIC" package3d_urn="urn:adsk.eagle:package:28349039/1" technology="25-20SSH" value="ATtiny25-20SSH"/>
 <part name="2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="Q1" library="Crystals" library_urn="urn:adsk.eagle:library:39856454" deviceset="KX" device="-9A" package3d_urn="urn:adsk.wipprod:fs.file:vf.3v7Z5ZW3R06Dizu2UJK3cg?version=4"/>
 <part name="G" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="+5V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="D-" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="D+" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="MCP1703" device="CB" package3d_urn="urn:adsk.eagle:package:16489/2"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RX" library="LED" deviceset="CHIP-FLAT-B" device="_0402" package3d_urn="urn:adsk.eagle:package:22900837/2" value="LED_BLUE"/>
+<part name="IC2" library="ATtiny" library_urn="urn:adsk.eagle:library:39900060" deviceset="ATTINY*-8PIN" device="_SOIC" package3d_urn="urn:adsk.wipprod:fs.file:vf.bhBjmqRuS7ai5J9CiApWlA?version=2" technology="25-20SSH" value="ATtiny25-20SSH"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="-45.72" y="48.26" size="3.81" layer="95" rot="R90" grouprefs="MCU">USB	</text>
 </plain>
 <instances>
-<instance part="U1" gate="A" x="12.7" y="-38.1" smashed="yes" grouprefs="CAN">
-<attribute name="NAME" x="28.2946" y="-28.9814" size="2.083" layer="95" ratio="6"/>
-<attribute name="VALUE" x="27.6552" y="-31.5214" size="2.083" layer="96" ratio="6"/>
+<instance part="U1" gate="A" x="12.7" y="-25.4" smashed="yes" grouprefs="CAN">
+<attribute name="NAME" x="28.2946" y="-16.2814" size="2.083" layer="95" ratio="6"/>
+<attribute name="VALUE" x="27.6552" y="-18.8214" size="2.083" layer="96" ratio="6"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-25.4" y="-48.26" smashed="yes" rot="MR0" grouprefs="CAN"/>
-<instance part="D1" gate="G$1" x="-40.64" y="63.5" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="NAME" x="-43.2816" y="61.1886" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-36.1442" y="60.9346" size="1.778" layer="96" rot="R90"/>
+<instance part="U$2" gate="G$1" x="-25.4" y="-35.56" smashed="yes" rot="MR0" grouprefs="CAN"/>
+<instance part="D1" gate="G$1" x="-38.1" y="50.8" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="-40.7416" y="48.4886" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-33.6042" y="48.2346" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D2" gate="G$1" x="-25.4" y="45.72" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="NAME" x="-28.0416" y="42.7736" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-20.9042" y="41.2496" size="1.778" layer="96" rot="R90"/>
+<instance part="D2" gate="G$1" x="-22.86" y="30.48" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="-25.5016" y="27.5336" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-18.3642" y="26.0096" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D3" gate="G$1" x="-33.02" y="45.72" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="NAME" x="-35.6616" y="42.7736" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-28.5242" y="41.2496" size="1.778" layer="96" rot="R90"/>
+<instance part="D3" gate="G$1" x="-30.48" y="30.48" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="-33.1216" y="27.5336" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-25.9842" y="26.0096" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="-17.78" y="55.88" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="-21.59" y="57.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-21.59" y="52.578" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="-15.24" y="40.64" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="-19.05" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-19.05" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="-17.78" y="50.8" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="-21.59" y="52.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-21.59" y="47.498" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="-15.24" y="35.56" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="-19.05" y="37.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-19.05" y="32.258" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="-33.02" y="63.5" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="NAME" x="-34.5186" y="59.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-29.718" y="59.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="-30.48" y="48.26" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="-31.9786" y="44.45" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-27.178" y="44.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+2" gate="VCC" x="137.16" y="-22.86" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="134.62" y="-25.4" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="VCC" x="121.92" y="-10.16" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="119.38" y="-12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="-33.02" y="27.94" smashed="yes" grouprefs="MCU">
-<attribute name="VALUE" x="-35.56" y="25.4" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="-30.48" y="12.7" smashed="yes" grouprefs="MCU">
+<attribute name="VALUE" x="-33.02" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="116.84" y="-48.26" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="114.3" y="-50.8" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="101.6" y="-35.56" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="99.06" y="-38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="VCC" x="-7.62" y="83.82" smashed="yes" grouprefs="MCU">
-<attribute name="VALUE" x="-10.16" y="81.28" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="VCC" x="-30.48" y="63.5" smashed="yes" grouprefs="MCU">
+<attribute name="VALUE" x="-33.02" y="60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="1" gate="P" x="0" y="25.4" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="NAME" x="-1.8542" y="24.257" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="3.302" y="24.257" size="1.778" layer="96" rot="R90"/>
+<instance part="1" gate="P" x="5.08" y="10.16" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="3.2258" y="9.017" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="8.382" y="9.017" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+4" gate="VCC" x="-45.72" y="-22.86" smashed="yes" grouprefs="CAN">
-<attribute name="VALUE" x="-48.26" y="-25.4" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="VCC" x="-45.72" y="-10.16" smashed="yes" grouprefs="CAN">
+<attribute name="VALUE" x="-48.26" y="-12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+5" gate="VCC" x="10.16" y="-22.86" smashed="yes" grouprefs="CAN">
-<attribute name="VALUE" x="7.62" y="-25.4" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="VCC" x="10.16" y="-10.16" smashed="yes" grouprefs="CAN">
+<attribute name="VALUE" x="7.62" y="-12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND6" gate="1" x="7.62" y="-50.8" smashed="yes" grouprefs="CAN">
-<attribute name="VALUE" x="5.08" y="-53.34" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="7.62" y="-38.1" smashed="yes" grouprefs="CAN">
+<attribute name="VALUE" x="5.08" y="-40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="H" gate="P" x="58.42" y="-40.64" smashed="yes" rot="R180" grouprefs="CAN">
-<attribute name="NAME" x="59.817" y="-41.3258" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.563" y="-37.338" size="1.778" layer="96" rot="R180"/>
+<instance part="H" gate="P" x="58.42" y="-27.94" smashed="yes" rot="R180" grouprefs="CAN">
+<attribute name="NAME" x="59.817" y="-28.6258" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.563" y="-24.638" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="L" gate="P" x="58.42" y="-43.18" smashed="yes" rot="R180" grouprefs="CAN">
-<attribute name="NAME" x="59.817" y="-43.8658" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.563" y="-39.878" size="1.778" layer="96" rot="R180"/>
+<instance part="L" gate="P" x="58.42" y="-30.48" smashed="yes" rot="R180" grouprefs="CAN">
+<attribute name="NAME" x="59.817" y="-31.1658" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.563" y="-27.178" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND7" gate="1" x="53.34" y="-53.34" smashed="yes" grouprefs="CAN">
-<attribute name="VALUE" x="50.8" y="-55.88" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="53.34" y="-40.64" smashed="yes" grouprefs="CAN">
+<attribute name="VALUE" x="50.8" y="-43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="-" gate="P" x="58.42" y="-45.72" smashed="yes" rot="R180" grouprefs="CAN">
-<attribute name="NAME" x="59.817" y="-46.4058" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.563" y="-42.418" size="1.778" layer="96" rot="R180"/>
+<instance part="-" gate="P" x="58.42" y="-33.02" smashed="yes" rot="R180" grouprefs="CAN">
+<attribute name="NAME" x="59.817" y="-33.7058" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.563" y="-29.718" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+6" gate="1" x="96.52" y="-25.4" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="93.98" y="-30.48" size="1.778" layer="96" rot="R90"/>
+<instance part="P+6" gate="1" x="81.28" y="-12.7" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="78.74" y="-17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+7" gate="1" x="53.34" y="-22.86" smashed="yes" grouprefs="CAN">
-<attribute name="VALUE" x="50.8" y="-27.94" size="1.778" layer="96" rot="R90"/>
+<instance part="P+7" gate="1" x="53.34" y="-10.16" smashed="yes" grouprefs="CAN">
+<attribute name="VALUE" x="50.8" y="-15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+" gate="P" x="58.42" y="-38.1" smashed="yes" rot="R180" grouprefs="CAN">
-<attribute name="NAME" x="59.817" y="-38.7858" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.563" y="-34.798" size="1.778" layer="96" rot="R180"/>
+<instance part="+" gate="P" x="58.42" y="-25.4" smashed="yes" rot="R180" grouprefs="CAN">
+<attribute name="NAME" x="59.817" y="-26.0858" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.563" y="-22.098" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="96.52" y="-35.56" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="98.044" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="98.044" y="-40.259" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="81.28" y="-22.86" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="82.804" y="-22.479" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.804" y="-27.559" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="137.16" y="-35.56" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="138.684" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="138.684" y="-40.259" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="121.92" y="-22.86" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="123.444" y="-22.479" size="1.778" layer="95"/>
+<attribute name="VALUE" x="123.444" y="-27.559" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="104.14" y="-35.56" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="105.283" y="-35.0774" size="1.778" layer="95"/>
-<attribute name="VALUE" x="105.283" y="-40.1574" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="88.9" y="-22.86" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="90.043" y="-22.3774" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.043" y="-27.4574" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="129.54" y="-35.56" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="130.683" y="-35.0774" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.683" y="-40.1574" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="114.3" y="-22.86" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="115.443" y="-22.3774" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.443" y="-27.4574" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="-2.54" y="-66.04" smashed="yes" grouprefs="CAN">
-<attribute name="NAME" x="-1.016" y="-65.659" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1.016" y="-70.739" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="-2.54" y="-53.34" smashed="yes" grouprefs="CAN">
+<attribute name="NAME" x="-1.016" y="-52.959" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.016" y="-58.039" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="7.62" y="-66.04" smashed="yes" grouprefs="CAN">
-<attribute name="NAME" x="9.144" y="-65.659" size="1.778" layer="95"/>
-<attribute name="VALUE" x="9.144" y="-70.739" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="7.62" y="-53.34" smashed="yes" grouprefs="CAN">
+<attribute name="NAME" x="9.144" y="-52.959" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.144" y="-58.039" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="2.54" y="-78.74" smashed="yes" grouprefs="CAN">
-<attribute name="VALUE" x="0" y="-81.28" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="2.54" y="-66.04" smashed="yes" grouprefs="CAN">
+<attribute name="VALUE" x="0" y="-68.58" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="45.72" y="53.34" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="45.72" y="66.04" size="2.54" layer="95" ratio="10" rot="SR0" align="center"/>
-<attribute name="VALUE" x="45.72" y="40.64" size="2.54" layer="96" ratio="10" rot="SR0" align="center"/>
+<instance part="2" gate="P" x="0" y="10.16" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="-1.8542" y="9.017" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="3.302" y="9.017" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="2" gate="P" x="-5.08" y="25.4" smashed="yes" rot="R90" grouprefs="MCU">
-<attribute name="NAME" x="-6.9342" y="24.257" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-1.778" y="24.257" size="1.778" layer="96" rot="R90"/>
+<instance part="Q1" gate="G$1" x="2.54" y="-48.26" smashed="yes" grouprefs="CAN">
+<attribute name="NAME" x="6.35" y="-46.99" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.35" y="-50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="2.54" y="-60.96" smashed="yes" grouprefs="CAN">
-<attribute name="NAME" x="6.35" y="-59.69" size="1.778" layer="95"/>
-<attribute name="VALUE" x="6.35" y="-63.5" size="1.778" layer="96"/>
+<instance part="G" gate="P" x="-5.08" y="10.16" smashed="yes" rot="R90" grouprefs="MCU">
+<attribute name="NAME" x="-6.9342" y="9.017" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-1.778" y="9.017" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="G" gate="P" x="5.08" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.2258" y="24.257" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="8.382" y="24.257" size="1.778" layer="96" rot="R90"/>
+<instance part="+5V" gate="1" x="-45.72" y="45.72" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="-47.117" y="46.4058" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-46.863" y="42.418" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD1" gate="1" x="-45.72" y="58.42" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="-47.117" y="59.1058" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-46.863" y="55.118" size="1.778" layer="96"/>
+<instance part="D-" gate="1" x="-45.72" y="40.64" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="-47.117" y="41.3258" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-46.863" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD2" gate="1" x="-45.72" y="55.88" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="-47.117" y="56.5658" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-46.863" y="52.578" size="1.778" layer="96"/>
+<instance part="D+" gate="1" x="-45.72" y="35.56" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="-47.117" y="36.2458" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-46.863" y="32.258" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD3" gate="1" x="-45.72" y="53.34" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="-47.117" y="54.0258" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-46.863" y="50.038" size="1.778" layer="96"/>
+<instance part="GND" gate="1" x="-45.72" y="30.48" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="-47.117" y="31.1658" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-46.863" y="27.178" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD4" gate="1" x="-45.72" y="50.8" smashed="yes" grouprefs="MCU">
-<attribute name="NAME" x="-47.117" y="51.4858" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-46.863" y="47.498" size="1.778" layer="96"/>
+<instance part="IC3" gate="G$1" x="101.6" y="-17.78" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="93.98" y="-12.065" size="1.778" layer="95"/>
+<attribute name="VALUE" x="93.98" y="-14.605" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="G$1" x="116.84" y="-30.48" smashed="yes">
-<attribute name="NAME" x="109.22" y="-24.765" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.22" y="-27.305" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="48.26" y="17.78" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="44.45" y="19.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.45" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="106.68" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="105.1814" y="31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="109.982" y="31.75" size="1.778" layer="96" rot="R90"/>
+<instance part="GND1" gate="1" x="30.48" y="10.16" smashed="yes" grouprefs="MCU">
+<attribute name="VALUE" x="27.94" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="106.68" y="15.24" smashed="yes">
-<attribute name="VALUE" x="104.14" y="12.7" size="1.778" layer="96"/>
+<instance part="RX" gate="G$1" x="38.1" y="17.78" smashed="yes" rot="R270" grouprefs="MCU">
+<attribute name="NAME" x="33.528" y="14.224" size="1.778" layer="95"/>
+<attribute name="VALUE" x="33.528" y="12.065" size="1.778" layer="96"/>
 </instance>
-<instance part="RX" gate="G$1" x="106.68" y="25.4" smashed="yes">
-<attribute name="NAME" x="110.236" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="112.395" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="IC2" gate="G$1" x="33.02" y="38.1" smashed="yes" grouprefs="MCU">
+<attribute name="NAME" x="33.02" y="50.8" size="2.54" layer="95" ratio="10" rot="SR0" align="center"/>
+<attribute name="VALUE" x="33.02" y="25.4" size="2.54" layer="96" ratio="10" rot="SR0" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -21477,322 +21478,315 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <net name="VCC" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-40.64" y1="66.04" x2="-40.64" y2="71.12" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-40.64" y1="71.12" x2="-33.02" y2="71.12" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-33.02" y1="71.12" x2="-33.02" y2="68.58" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-38.1" y1="53.34" x2="-38.1" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-38.1" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="55.88" x2="-30.48" y2="53.34" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<junction x="-33.02" y="71.12" grouprefs="MCU"/>
-<wire x1="-33.02" y1="71.12" x2="-7.62" y2="71.12" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-7.62" y1="60.96" x2="-7.62" y2="71.12" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="-7.62" y1="71.12" x2="-7.62" y2="81.28" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-2.54" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="91" grouprefs="MCU"/>
-<junction x="-7.62" y="71.12" grouprefs="MCU"/>
+<wire x1="-30.48" y1="55.88" x2="-30.48" y2="60.96" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="55.88" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<junction x="-30.48" y="55.88" grouprefs="MCU"/>
 </segment>
 <segment>
-<wire x1="127" y1="-30.48" x2="129.54" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="129.54" y1="-30.48" x2="137.16" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="137.16" y1="-30.48" x2="137.16" y2="-25.4" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="111.76" y1="-17.78" x2="114.3" y2="-17.78" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="114.3" y1="-17.78" x2="121.92" y2="-17.78" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="121.92" y1="-17.78" x2="121.92" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="137.16" y1="-30.48" x2="137.16" y2="-33.02" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="121.92" y1="-17.78" x2="121.92" y2="-20.32" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="129.54" y1="-33.02" x2="129.54" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-20.32" x2="114.3" y2="-17.78" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="IC3" gate="G$1" pin="VO"/>
-<junction x="129.54" y="-30.48"/>
-<junction x="137.16" y="-30.48"/>
+<junction x="114.3" y="-17.78" grouprefs="POWER"/>
+<junction x="121.92" y="-17.78" grouprefs="POWER"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="-45.72" y1="-25.4" x2="-45.72" y2="-38.1" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="-45.72" y1="-38.1" x2="-43.18" y2="-38.1" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-45.72" y1="-12.7" x2="-45.72" y2="-25.4" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-45.72" y1="-25.4" x2="-43.18" y2="-25.4" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VDD"/>
-<wire x1="15.24" y1="-43.18" x2="10.16" y2="-43.18" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="10.16" y1="-43.18" x2="10.16" y2="-25.4" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="15.24" y1="-30.48" x2="10.16" y2="-30.48" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="10.16" y1="-30.48" x2="10.16" y2="-12.7" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="USB_5V" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-40.64" y1="60.96" x2="-40.64" y2="58.42" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-40.64" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="-38.1" y1="48.26" x2="-38.1" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-38.1" y1="45.72" x2="-43.18" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="+5V" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
 <segment>
-<wire x1="-43.18" y1="55.88" x2="-33.02" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-33.02" y1="55.88" x2="-33.02" y2="58.42" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-43.18" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="40.64" x2="-30.48" y2="43.18" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="55.88" x2="-25.4" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-25.4" y1="55.88" x2="-25.4" y2="48.26" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="40.64" x2="-22.86" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-22.86" y1="40.64" x2="-22.86" y2="33.02" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-25.4" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-22.86" y1="40.64" x2="-20.32" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<junction x="-33.02" y="55.88"/>
-<junction x="-25.4" y="55.88"/>
-<pinref part="PAD2" gate="1" pin="P"/>
+<pinref part="D-" gate="1" pin="P"/>
+<junction x="-30.48" y="40.64" grouprefs="MCU"/>
+<junction x="-22.86" y="40.64" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="50.8" x2="-33.02" y2="48.26" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="35.56" x2="-30.48" y2="33.02" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="-22.86" y1="50.8" x2="-33.02" y2="50.8" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-33.02" y1="50.8" x2="-33.02" y2="53.34" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-33.02" y1="53.34" x2="-43.18" y2="53.34" width="0.1524" layer="91" grouprefs="MCU"/>
-<junction x="-33.02" y="50.8"/>
-<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="-20.32" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="35.56" x2="-43.18" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="D+" gate="1" pin="P"/>
+<junction x="-30.48" y="35.56" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="116.84" y1="-38.1" x2="116.84" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="116.84" y1="-43.18" x2="116.84" y2="-45.72" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="101.6" y1="-25.4" x2="101.6" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="101.6" y1="-30.48" x2="101.6" y2="-33.02" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="116.84" y1="-43.18" x2="104.14" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="104.14" y1="-43.18" x2="96.52" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="96.52" y1="-43.18" x2="96.52" y2="-40.64" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="101.6" y1="-30.48" x2="88.9" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="88.9" y1="-30.48" x2="81.28" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="81.28" y1="-30.48" x2="81.28" y2="-27.94" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="-43.18" x2="129.54" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="129.54" y1="-43.18" x2="137.16" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="137.16" y1="-43.18" x2="137.16" y2="-40.64" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="101.6" y1="-30.48" x2="114.3" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="114.3" y1="-30.48" x2="121.92" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="121.92" y1="-30.48" x2="121.92" y2="-27.94" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="-"/>
-<wire x1="104.14" y1="-40.64" x2="104.14" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
-<pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="129.54" y1="-40.64" x2="129.54" y2="-43.18" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="88.9" y1="-27.94" x2="88.9" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="114.3" y1="-27.94" x2="114.3" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="IC3" gate="G$1" pin="GND"/>
-<junction x="116.84" y="-43.18"/>
-<junction x="104.14" y="-43.18"/>
-<junction x="129.54" y="-43.18"/>
+<junction x="101.6" y="-30.48" grouprefs="POWER"/>
+<junction x="88.9" y="-30.48" grouprefs="POWER"/>
+<junction x="114.3" y="-30.48" grouprefs="POWER"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VSS"/>
-<wire x1="15.24" y1="-40.64" x2="7.62" y2="-40.64" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="7.62" y1="-40.64" x2="7.62" y2="-48.26" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="15.24" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="7.62" y1="-27.94" x2="7.62" y2="-35.56" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="53.34" y1="-50.8" x2="53.34" y2="-45.72" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="53.34" y1="-45.72" x2="55.88" y2="-45.72" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="53.34" y1="-38.1" x2="53.34" y2="-33.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="53.34" y1="-33.02" x2="55.88" y2="-33.02" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="-" gate="P" pin="P"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="-71.12" x2="-2.54" y2="-73.66" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="-2.54" y1="-73.66" x2="2.54" y2="-73.66" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="2.54" y1="-73.66" x2="7.62" y2="-73.66" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="7.62" y1="-73.66" x2="7.62" y2="-71.12" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-2.54" y1="-58.42" x2="-2.54" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-2.54" y1="-60.96" x2="2.54" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="2.54" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="7.62" y1="-60.96" x2="7.62" y2="-58.42" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<junction x="2.54" y="-73.66" grouprefs="CAN"/>
-<wire x1="2.54" y1="-73.66" x2="2.54" y2="-76.2" width="0.1524" layer="91" grouprefs="CAN"/>
+<junction x="2.54" y="-60.96" grouprefs="CAN"/>
+<wire x1="2.54" y1="-60.96" x2="2.54" y2="-63.5" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-7.62" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="-2.54" y1="45.72" x2="-7.62" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-7.62" y1="45.72" x2="-7.62" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="15.24" y1="30.48" x2="-5.08" y2="30.48" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-5.08" y1="30.48" x2="-5.08" y2="25.4" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-25.4" y1="40.64" x2="-25.4" y2="43.18" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-25.4" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-22.86" y1="25.4" x2="-22.86" y2="27.94" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-22.86" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="-33.02" y1="43.18" x2="-33.02" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-33.02" y1="40.64" x2="-33.02" y2="30.48" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-33.02" y1="40.64" x2="-25.4" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-40.64" y1="40.64" x2="-33.02" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="PAD4" gate="1" pin="P"/>
-<wire x1="-43.18" y1="50.8" x2="-40.64" y2="50.8" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-40.64" y1="50.8" x2="-40.64" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="5.08" y1="40.64" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="27.94" x2="-30.48" y2="25.4" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="25.4" x2="-30.48" y2="15.24" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-30.48" y1="25.4" x2="-22.86" y2="25.4" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-38.1" y1="25.4" x2="-30.48" y2="25.4" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="GND" gate="1" pin="P"/>
+<wire x1="-43.18" y1="30.48" x2="-38.1" y2="30.48" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-38.1" y1="30.48" x2="-38.1" y2="25.4" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="-5.08" y1="25.4" x2="-5.08" y2="12.7" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="G" gate="P" pin="P"/>
-<junction x="-7.62" y="40.64"/>
-<junction x="-25.4" y="40.64"/>
-<junction x="-33.02" y="40.64"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<junction x="-5.08" y="25.4" grouprefs="MCU"/>
+<junction x="-22.86" y="25.4" grouprefs="MCU"/>
+<junction x="-30.48" y="25.4" grouprefs="MCU"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="106.68" y1="17.78" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="12.7" x2="30.48" y2="17.78" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="30.48" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="RX" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<wire x1="106.68" y1="-30.48" x2="104.14" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="104.14" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="96.52" y1="-30.48" x2="96.52" y2="-27.94" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="91.44" y1="-17.78" x2="88.9" y2="-17.78" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="88.9" y1="-17.78" x2="81.28" y2="-17.78" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="81.28" y1="-17.78" x2="81.28" y2="-15.24" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
-<wire x1="96.52" y1="-30.48" x2="96.52" y2="-33.02" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="81.28" y1="-17.78" x2="81.28" y2="-20.32" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="104.14" y1="-33.02" x2="104.14" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-20.32" x2="88.9" y2="-17.78" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="IC3" gate="G$1" pin="VI"/>
-<junction x="104.14" y="-30.48"/>
-<junction x="96.52" y="-30.48"/>
+<junction x="88.9" y="-17.78" grouprefs="POWER"/>
+<junction x="81.28" y="-17.78" grouprefs="POWER"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+12V"/>
-<wire x1="53.34" y1="-25.4" x2="53.34" y2="-38.1" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="53.34" y1="-38.1" x2="55.88" y2="-38.1" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="53.34" y1="-12.7" x2="53.34" y2="-25.4" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="53.34" y1="-25.4" x2="55.88" y2="-25.4" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="+" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="SI" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<label x="-7.62" y="58.42" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
-<wire x1="-10.16" y1="55.88" x2="-12.7" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-10.16" y1="55.88" x2="-10.16" y2="68.58" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="106.68" y1="60.96" x2="106.68" y2="48.26" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="IC1" gate="G$1" pin="PB3(PCINT3/XTAL1/CLKI/!OC1B!/ADC3)"/>
-<wire x1="101.6" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="106.68" y1="68.58" x2="106.68" y2="60.96" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="106.68" y1="68.58" x2="-10.16" y2="68.58" width="0.1524" layer="91" grouprefs="MCU"/>
-<label x="116.84" y="48.26" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
-<wire x1="116.84" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="106.68" y1="48.26" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<junction x="106.68" y="60.96"/>
-<junction x="106.68" y="48.26"/>
+<wire x1="-53.34" y1="-35.56" x2="-43.18" y2="-35.56" width="0.1524" layer="91" grouprefs="CAN"/>
+<pinref part="U$2" gate="G$1" pin="SI"/>
+<label x="-53.34" y="-35.56" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
-<wire x1="-53.34" y1="-48.26" x2="-43.18" y2="-48.26" width="0.1524" layer="91" grouprefs="CAN"/>
-<pinref part="U$2" gate="G$1" pin="SI"/>
-<label x="-53.34" y="-48.26" size="1.778" layer="95" grouprefs="CAN"/>
+<label x="68.58" y="40.64" size="1.778" layer="95" grouprefs="MCU"/>
+<pinref part="IC2" gate="G$1" pin="D0/SI/SDA*"/>
+<wire x1="50.8" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<label x="-7.62" y="53.34" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
-<wire x1="-10.16" y1="50.8" x2="-12.7" y2="50.8" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="101.6" y1="43.18" x2="101.6" y2="38.1" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="101.6" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-10.16" y1="38.1" x2="-10.16" y2="50.8" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="IC1" gate="G$1" pin="PB4(PCINT4/XTAL2/CLKO/OC1B/ADC2)"/>
-<wire x1="-2.54" y1="50.8" x2="-10.16" y2="50.8" width="0.1524" layer="91" grouprefs="MCU"/>
-<label x="116.84" y="43.18" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
-<wire x1="116.84" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91" grouprefs="MCU"/>
-<junction x="-10.16" y="50.8"/>
+<wire x1="-53.34" y1="-40.64" x2="-43.18" y2="-40.64" width="0.1524" layer="91" grouprefs="CAN"/>
+<pinref part="U$2" gate="G$1" pin="SCK"/>
+<label x="-53.34" y="-40.64" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
-<wire x1="-53.34" y1="-53.34" x2="-43.18" y2="-53.34" width="0.1524" layer="91" grouprefs="CAN"/>
-<pinref part="U$2" gate="G$1" pin="SCK"/>
-<label x="-53.34" y="-53.34" size="1.778" layer="95" grouprefs="CAN"/>
+<label x="68.58" y="30.48" size="1.778" layer="95" grouprefs="MCU"/>
+<pinref part="IC2" gate="G$1" pin="D2/A1/SCK/SCL"/>
+<wire x1="50.8" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="CS" class="0">
 <segment>
-<wire x1="109.22" y1="55.88" x2="109.22" y2="53.34" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="109.22" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="IC1" gate="G$1" pin="PB2(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)"/>
-<label x="116.84" y="53.34" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
-<wire x1="109.22" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91" grouprefs="MCU"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="!CS"/>
-<wire x1="-43.18" y1="-43.18" x2="-53.34" y2="-43.18" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="-53.34" y="-43.18" size="1.778" layer="95" grouprefs="CAN"/>
+<wire x1="-43.18" y1="-30.48" x2="-53.34" y2="-30.48" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="-53.34" y="-30.48" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
-</net>
-<net name="IO1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB0(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0)"/>
-<wire x1="101.6" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="104.14" y1="45.72" x2="104.14" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="104.14" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="1" gate="P" pin="P"/>
-<wire x1="0" y1="27.94" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="D4/A2/USB-*"/>
+<wire x1="15.24" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="10.16" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="22.86" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="10.16" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91" grouprefs="MCU"/>
+<label x="68.58" y="22.86" size="1.778" layer="95" grouprefs="MCU"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<label x="-5.08" y="40.64" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
+<wire x1="-7.62" y1="40.64" x2="-2.54" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<junction x="10.16" y="35.56" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="TXCAN"/>
-<wire x1="-5.08" y1="-38.1" x2="15.24" y2="-38.1" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-5.08" y1="-25.4" x2="15.24" y2="-25.4" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="U1" gate="A" pin="TXD"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="RXD"/>
-<wire x1="15.24" y1="-45.72" x2="5.08" y2="-45.72" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="5.08" y1="-45.72" x2="5.08" y2="-40.64" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="5.08" y1="-40.64" x2="-5.08" y2="-40.64" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="15.24" y1="-33.02" x2="5.08" y2="-33.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="5.08" y1="-33.02" x2="5.08" y2="-27.94" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="5.08" y1="-27.94" x2="-5.08" y2="-27.94" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="U$2" gate="G$1" pin="RXCAN"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CANH"/>
-<wire x1="50.8" y1="-40.64" x2="55.88" y2="-40.64" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="50.8" y1="-27.94" x2="55.88" y2="-27.94" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="H" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CANL"/>
-<wire x1="50.8" y1="-43.18" x2="55.88" y2="-43.18" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="50.8" y1="-30.48" x2="55.88" y2="-30.48" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="L" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="OSC2"/>
-<wire x1="-5.08" y1="-55.88" x2="7.62" y2="-55.88" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="7.62" y1="-55.88" x2="7.62" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-5.08" y1="-43.18" x2="7.62" y2="-43.18" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="7.62" y1="-43.18" x2="7.62" y2="-48.26" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="-60.96" x2="7.62" y2="-63.5" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="5.08" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
-<junction x="7.62" y="-60.96" grouprefs="CAN"/>
+<wire x1="7.62" y1="-48.26" x2="7.62" y2="-50.8" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="5.08" y1="-48.26" x2="7.62" y2="-48.26" width="0.1524" layer="91" grouprefs="CAN"/>
+<junction x="7.62" y="-48.26" grouprefs="CAN"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="OSC1"/>
-<wire x1="-5.08" y1="-58.42" x2="-2.54" y2="-58.42" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="-2.54" y1="-58.42" x2="-2.54" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-5.08" y1="-45.72" x2="-2.54" y2="-45.72" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-2.54" y1="-45.72" x2="-2.54" y2="-48.26" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="-60.96" x2="-2.54" y2="-63.5" width="0.1524" layer="91" grouprefs="CAN"/>
-<junction x="-2.54" y="-60.96" grouprefs="CAN"/>
-<wire x1="-2.54" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="-2.54" y1="-48.26" x2="-2.54" y2="-50.8" width="0.1524" layer="91" grouprefs="CAN"/>
+<junction x="-2.54" y="-48.26" grouprefs="CAN"/>
+<wire x1="-2.54" y1="-48.26" x2="0" y2="-48.26" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IO2" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB5(PCINT5/!RESET!/ADC0/DW)"/>
-<wire x1="-2.54" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91" grouprefs="MCU"/>
-<wire x1="-5.08" y1="55.88" x2="-5.08" y2="27.94" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="15.24" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="0" y1="45.72" x2="0" y2="12.7" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="2" gate="P" pin="P"/>
+<pinref part="IC2" gate="G$1" pin="D5/A0/RST"/>
 </segment>
 </net>
 <net name="SO" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="SO"/>
-<wire x1="-43.18" y1="-45.72" x2="-53.34" y2="-45.72" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="-53.34" y="-45.72" size="1.778" layer="95" grouprefs="CAN"/>
+<wire x1="-43.18" y1="-33.02" x2="-53.34" y2="-33.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="-53.34" y="-33.02" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91" grouprefs="MCU"/>
-<pinref part="IC1" gate="G$1" pin="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)"/>
-<label x="116.84" y="50.8" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
+<label x="68.58" y="35.56" size="1.778" layer="95" grouprefs="MCU"/>
+<wire x1="66.04" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="IC2" gate="G$1" pin="D1/SO*"/>
+<wire x1="55.88" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="17.78" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="55.88" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<junction x="55.88" y="35.56" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="27.94" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="RX" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="IO1" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="35.56" x2="-7.62" y2="35.56" width="0.1524" layer="91" grouprefs="MCU"/>
+<label x="-5.08" y="38.1" size="1.778" layer="95" rot="R180" grouprefs="MCU"/>
+<wire x1="-7.62" y1="35.56" x2="-2.54" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="IC2" gate="G$1" pin="D3/A3/USB+"/>
+<wire x1="-2.54" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="5.08" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="40.64" width="0.1524" layer="91" grouprefs="MCU"/>
+<pinref part="1" gate="P" pin="P"/>
+<junction x="5.08" y="40.64" grouprefs="MCU"/>
 </segment>
 </net>
 </nets>
