@@ -71,6 +71,11 @@ The Mate-N-LOK connectors are used for internal wiring only. 4-pin MINI-XLR conn
 | 3   | CAN-H                      |
 | 4   | +6-30 Volt / max. 5 Ampere |
 
+### Cables
+The four-pole CAN bus cables should have a minimum cross-section of 0.34mm² in order to withstand the maximum current of five amperes.
+
+Recommended cable: UNITRONIC® ROBUST 4x0.34 black
+
 ### Pulse
 Used for speed or rpm measurement.
 
