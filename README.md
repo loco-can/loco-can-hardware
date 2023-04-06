@@ -187,25 +187,29 @@ JST XH
 ## Hardware version V2.0
 | pin | usage      |
 |:----|:-----------|
-| 1   | Output 1    |
-| 2   | Output 2    |
-| 3   | Output 3    |
-| 4   | Output 4    |
-| 5   | Output 5    |
-| 6   | Output 6    |
+| 1   | Output 1   |
+| 2   | Output 2   |
+| 3   | Output 3   |
+| 4   | Output 4   |
+| 5   | Output 5   |
+| 6   | Output 6   |
 | 7   | GND        |
 
 ## Hardware version V2.1a/V2.2
 | pin | usage      |
 |:----|:-----------|
-| 1   | +bus      |
-| 2   | Output 1    |
-| 3   | Output 2    |
-| 4   | Output 3    |
-| 5   | Output 4    |
-| 6   | Output 5    |
-| 7   | Output 6    |
+| 1   | +bus       |
+| 2   | Output 1   |
+| 3   | Output 2   |
+| 4   | Output 3   |
+| 5   | Output 4   |
+| 6   | Output 5   |
+| 7   | Output 6   |
 | 8   | GND        |
+
+The switching module can switch up to 3 amps per output. Both resistive and inductive loads can be switched. If the current is taken from the bus, make sure that the total consumption of the system does not exceed the limit of 5 amperes.
+
+If all outputs are operated with 3 amps, a separate supply line must be laid from the positive pole of the battery to the loads and from the negative pole of the battery to the GND connection of the switching output. The value of the maximum current must be adjusted in the configuration of the module.
 
 ### FTDI Interface
 | V2.1     | V2.1a     |
