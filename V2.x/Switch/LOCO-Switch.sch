@@ -24231,15 +24231,15 @@ unwanted messages, thereby reducing the host MCUs overhead. The MCP2515 interfac
 <attribute name="NAME" x="90.17" y="13.716" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="86.36" y="16.51" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TX" gate="G$1" x="71.12" y="10.16" smashed="yes">
+<instance part="TX" gate="G$1" x="71.12" y="10.16" smashed="yes" grouprefs="MCU">
 <attribute name="NAME" x="74.676" y="5.588" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.835" y="5.588" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="71.12" y="-2.54" smashed="yes" rot="R270">
+<instance part="R17" gate="G$1" x="71.12" y="-2.54" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="NAME" x="72.6186" y="1.27" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="72.898" y="-3.175" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND11" gate="1" x="71.12" y="-12.7" smashed="yes">
+<instance part="GND11" gate="1" x="71.12" y="-12.7" smashed="yes" grouprefs="MCU">
 <attribute name="VALUE" x="68.58" y="-15.24" size="1.778" layer="96"/>
 </instance>
 </instances>
@@ -24426,7 +24426,7 @@ unwanted messages, thereby reducing the host MCUs overhead. The MCP2515 interfac
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="-7.62" x2="71.12" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-7.62" x2="71.12" y2="-10.16" width="0.1524" layer="91" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -25049,16 +25049,16 @@ unwanted messages, thereby reducing the host MCUs overhead. The MCP2515 interfac
 <segment>
 <pinref part="TX" gate="G$1" pin="C"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="2.54" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="2.54" x2="71.12" y2="5.08" width="0.1524" layer="91" grouprefs="MCU"/>
 </segment>
 </net>
 <net name="D8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="55.88" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="30.48" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91" grouprefs="MCU"/>
+<wire x1="71.12" y1="30.48" x2="71.12" y2="12.7" width="0.1524" layer="91" grouprefs="MCU"/>
 <pinref part="TX" gate="G$1" pin="A"/>
-<label x="58.42" y="30.48" size="1.778" layer="95"/>
+<label x="58.42" y="30.48" size="1.778" layer="95" grouprefs="MCU"/>
 </segment>
 </net>
 </nets>
