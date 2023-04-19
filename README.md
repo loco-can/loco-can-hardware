@@ -13,17 +13,11 @@ The system is not only intended for networking within a traction vehicle, but ca
 
 The system is still under developement. The CAN-specification is defined but can be extended. Board designs are available in different versions, due to the process of evolvement. Besides bugs in the board design details like the pinout of the program interface differ between the versions.
 
-## Loco-CAN System Description
 
-The Modules are connected with 4-pin cables using MICRO MATE-N-LOK connectors. The cables have a supply line with a voltage of +6 up to +30 Volts. The supply can be provided through some modules, that have got supply connectors (vertical 2-pin MICRO MATE-N-LOK connector). The motor module supplies directly from the motor driver.
+# Version
+The current development of the system is based on version 2.x. It combines the microcontroller and the CAN bus connector with the specialized function on one board. Due to the use of SMD components, the modules are significantly smaller than in old 1.x versions.
 
-All supply connectors have a diode, so the input voltages on places in the network can be different. The supply voltage on the bus will be the highest value. The operation voltage for internal function of the modules is created onboard.
-
-So it is possible to connect two locomotives with 12 Volt and 24 Volt batteries without any problem. All connected units have a common GND level. When using the CAN-supply for LED-lights, it is important to have the big voltage range in mind. Best is to use a current regulator for the LEDs.
-
-**It is not recommended to use the CAN-Connector for supply of the bus.**
-
-# Hardware
+With the universal module, a version with an expansion bus is also available.
 
 ## Wired units
 | Unit            | Type            |
@@ -39,15 +33,10 @@ So it is possible to connect two locomotives with 12 Volt and 24 Volt batteries 
 | CAN-Controller  | integrated      |
 | CAN-Transceiver | MCP 2551        |
 
-# V 2.x
-The current development of the system is based on version 2.x. It combines the microcontroller and the CAN bus connector with the specialized function on one board. Due to the use of SMD components, the modules are significantly smaller than in old 1.x versions.
-
-With the universal module, a version with an expansion bus is also available.
-
-## Connectors
+# Connectors
 The following connectors for the basic IOs are universal used by all modules if needed. The information includes the technical specifications for the connectors and the electrical assignment.
 
-### CAN bus
+## CAN bus
 The CAN-bus is found on all modules, even the WIFI. It connects all modules and provides both communication and supply.
 
 **4-pin 2x2**
@@ -62,6 +51,7 @@ Jack: MATE-N-LOK 3-794618-4
 | 4   | +6-30 Volt / max. 5 Ampere |
 
 ### Loco interconnection
+**4-pin Mini-XLR**
 The Mate-N-LOK connectors are used for internal wiring only. 4-pin MINI-XLR connectors are used to couple vehicles together. The plugs are robust, but at the same time small enough to allow model-like housings around the plugs. The pin assignment matches the internal connectors. On the vehicle the female connectors are used.
 
 | pin | usage                      |
@@ -76,7 +66,7 @@ The four-pole CAN bus cables should have a minimum cross-section of 0.34mm² in 
 
 Recommended cable: UNITRONIC® ROBUST 4x0.34 black
 
-### Pulse
+## Pulse
 Used for speed or rpm measurement.
 
 **2-pin horizontal**
@@ -88,23 +78,31 @@ Jack: MATE-N-LOK 1445022-2
 | 1   | Pulse |
 | 2   | GND   |
 
-### Power
+## Power
 Supply input for the Loco-system.
 
 **2-pin vertical**
 Plug: MATE-N-LOK 794617-2
 Jack: MATE-N-LOK 3-794618-2
 
-| pin | usage                      |
-|:---:|:---------------------------|
-| 1   | +6-30 Volt / max. 5 Ampere |
-| 2   | GND                        |
+| pin | usage  |
+|:---:|:-------|
+| 1   | +6-30V |
+| 2   | GND    |
 
 
-## ICP SDI pads
+# ICP SDI pads
 To flash the bootloader on Atmega chips latter versions provide four pads to access the SDI port of the MCU and a reset signal. A jumper in the CS line between the MCU and the CAN controller has to be open for the flash process and closed for normal operation.
 
 The hardware versions with the SDI pads before 2.2 are marked with a letter s at the end of the version string.
+
+ICP-Interface
+| pin | usage |
+|:----|:------|
+| 1   | SCK   |
+| 2   | SI    |
+| 3   | SO    |
+| 4   | RST   |
 
 # Modules
 All modules, except Loco-Single, are equipped with two 4-pin CAN connectors. The following modules are available or in developement:
@@ -115,13 +113,13 @@ The pinout of the FTDI interface for flashing new software differs in the early 
 All versions are compatible on the CAN-bus, the differences are only in the expansion ports.
 
 Standard FTDI Interface to flash software updates
-| pin | usage     |
-|:----|:----------|
-| 1   | **1 DTS** |
-| 2   | **2 RX**  |
-| 3   | **3 TX**  |
-| 4   | **4 3V3** |
-| 5   | **GND**   |
+| pin | usage        | cable  |
+|:----|:-------------|--------|
+| 1   | **1 DTS**    | yellow |
+| 2   | **2 RX**     | braun  |
+| 3   | **3 TX**     | white  |
+| 4   | **4 3V3/5V** | green  |
+| 5   | **GND**      | GND    |
 
 
 # Loco-Motor
@@ -396,12 +394,6 @@ The version provide the default FTDI pinout. To flash a new software version, pi
 | 4   | **4 3V3** |
 | 5   | **GND**   |
 
-### Loco-Split
-The splitbox is a tiny module that split up the CAN-bus line with three connectors. It also provides a power input connector for additional supply of the bus.
-
-For details ot the connector pinouts see the connector section below.
-
-**Power for the system has to be provided via a motor module or the splitboxes. It is not recommended to use the CAN connector for this purpose!**
 
 # Loco-Control-Adapter
 The controller module provides connectors to apply pots, switches, leds and meters in an easy way to implement an own controller design.
@@ -472,6 +464,31 @@ The signal connector has two inputs for a high/low horn operation. Setting both 
 | 1   | high  |
 | 2   | low   |
 | 3   | GND   |
+
+
+# Power Supply
+
+The Modules are connected with 4-pin cables using MICRO MATE-N-LOK connectors. The cables have a supply line with a voltage of +6 up to +30 Volts. The supply can be provided through some modules, that have got supply connectors (vertical 2-pin MICRO MATE-N-LOK connector). The motor module supplies directly from the motor driver.
+
+All supply connectors have a diode, so the input voltages on places in the network can be different. The supply voltage on the bus will be the highest value. The operation voltage for internal function of the modules is created onboard.
+
+So it is possible to connect two locomotives with 12 Volt and 24 Volt batteries without any problem. All connected units have a common GND level. When using the CAN-supply for LED-lights, it is important to have the big voltage range in mind. Best is to use a current regulator for the LEDs.
+
+**It is not recommended to use the CAN-Connector for supply of the bus.**
+
+
+## Loco-Split
+The splitbox is a tiny module that split up the CAN-bus line with three connectors. It also provides a power input connector for additional supply of the bus.
+
+For details ot the connector pinouts see the connector section below.
+
+**Power for the system has to be provided via a motor module or the splitboxes. It is not recommended to use the CAN connector for this purpose!**
+
+
+## Loco-train
+**not yet designed**
+The train device connects an vehicle intern bus with the train interconnecting plugs. To enshure safe operation, the Loco-train has a built in current limmiter to 5 Amperes as well as a over current shutdown. An additional puwer input can be used, to enshure the full 5 Amps to the train.
+
 
 # Deprecated Hardware Versions
 
