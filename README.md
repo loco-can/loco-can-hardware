@@ -490,6 +490,17 @@ For details ot the connector pinouts see the connector section below.
 The train device connects an vehicle intern bus with the train interconnecting plugs. To enshure safe operation, the Loco-train has a built in current limmiter to 5 Amperes as well as a over current shutdown. An additional puwer input can be used, to enshure the full 5 Amps to the train.
 
 
+## Loco-Power
+**not yet designed**
+A power box with an integrated battery that is charged from the CAN bus supply. It can i.e. be used to power a speedometer without any other module.
+
+
+# Cases
+The cases for all modules are collected in the mechanics directory of the repository. Cases only exist in the Version 2 and above. There are both a STL version and the Fusion 360 file.
+
+Most modules use the standard baseplate and differ only in the cover design. The housing for the control adapter consists of three parts, the controller base plate, an intermediate frame and the cover for the universal module.
+
+
 # Deprecated Hardware Versions
 
 ## V1.2
